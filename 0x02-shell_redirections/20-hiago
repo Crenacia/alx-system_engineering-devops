@@ -1,3 +1,2 @@
 #!/bin/bash
-echo "My name is Crenacia" | tr -dc ' [c]' '[C]'
-
+tr -d "Cc"
