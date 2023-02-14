@@ -1,6 +1,2 @@
 #!/bin/bash
-echo $((' echo $PATH | grep -o ":/" | wc -1' +1 ))
-echo echo "$PATH"
-printf "%s\n" $PATH
-/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X11:/usr/games
-
+echo $((' echo $PATH | grep -o ":/" | wc -1' +1))
